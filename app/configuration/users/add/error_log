@@ -1,0 +1,10 @@
+[04-May-2019 19:16:53 Europe/Bucharest] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/circuitp/tempmon.ro/demo/configuration/users/add/index.php on line 47
+[04-May-2019 19:16:54 Europe/Bucharest] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/circuitp/tempmon.ro/demo/configuration/users/add/index.php on line 47
+[04-May-2019 19:16:54 Europe/Bucharest] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/circuitp/tempmon.ro/demo/configuration/users/add/index.php on line 47
+[04-May-2019 19:16:54 Europe/Bucharest] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/circuitp/tempmon.ro/demo/configuration/users/add/index.php on line 47
+[11-May-2019 14:34:35 Europe/Bucharest] PHP Notice:  Undefined variable: _SESSION in /home/circuitp/tempmon.ro/demo/configuration/users/add/index.php on line 37
+[11-May-2019 14:34:35 Europe/Bucharest] PHP Notice:  Undefined variable: _SESSION in /home/circuitp/tempmon.ro/demo/configuration/users/add/index.php on line 38
+[11-May-2019 14:34:35 Europe/Bucharest] PHP Notice:  Undefined variable: _SESSION in /home/circuitp/tempmon.ro/demo/configuration/users/add/index.php on line 40
+[11-May-2019 14:34:41 Europe/Bucharest] PHP Notice:  Undefined variable: _SESSION in /home/circuitp/tempmon.ro/demo/configuration/users/add/index.php on line 37
+[11-May-2019 14:34:41 Europe/Bucharest] PHP Notice:  Undefined variable: _SESSION in /home/circuitp/tempmon.ro/demo/configuration/users/add/index.php on line 38
+[11-May-2019 14:34:41 Europe/Bucharest] PHP Notice:  Undefined variable: _SESSION in /home/circuitp/tempmon.ro/demo/configuration/users/add/index.php on line 40

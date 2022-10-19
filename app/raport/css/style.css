@@ -1,0 +1,189 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  body {
+    font-size: 1.4rem;
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+  .grid {
+    display: grid;
+  /*   grid-template-columns: .1fr .25fr .65fr; */
+    grid-template-columns: 1fr 3fr 8fr;
+  }
+  
+  nav {
+    background: linear-gradient(to bottom, #162E9C, #162F94);
+    height: 100%;
+  }
+  
+  .nav-side ul a {
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-side ul li {
+    text-align: center;
+  }
+  
+  .logo {
+    background: linear-gradient(to bottom right, #26BDCE, #24B9CB);
+    padding: 2.3rem;
+    margin-top: 0 !important;
+  }
+  
+  .home {
+    margin-top: 3.7rem;
+  }
+  .battery {
+    margin-top: 3.7rem;
+  }
+  
+  .gateway-meta {
+    background: linear-gradient(to bottom, #273EB1, #273EAE);
+    color: #fff;
+    font-size: 1.4rem;
+  }
+
+  .gateway-meta__status {
+    margin-top: 7rem;
+    
+  }
+  
+  .gateway-meta__status-circle {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background: red;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: #27F6C0;
+    margin-bottom: 7rem;
+  }
+  
+  .gateway-meta__status-circle-2 {
+    position: absolute;
+    top: -8.5rem;
+    left: -2.5rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 6rem;
+    background: transparent;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: 2px green dashed;
+  }
+
+  .gateway-offline {
+      background: #ff6384;
+  }
+
+  .gateway-offline-2 {
+      border: 2px #ff6384 dashed;
+  }
+  
+  .gateway-meta__name {
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 1.7rem;
+    text-align: center;
+  }
+  
+  .gateway-meta__battery {
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .battery_level {
+    position: relative;
+    font-size: 3rem;
+    bottom: 1rem;
+    padding-left: 3rem;
+  }
+  
+  .gateway-meta__temperature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+  
+  .current_temperature_span {
+    position: relative;
+    left: 2rem;
+  }
+  
+  .current_temp_label {
+    text-transform: uppercase;
+    opacity: 0.2;
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 1.5rem;
+    letter-spacing: .2rem;
+    text-align: center;
+  }
+  
+  .gateway-meta__info {
+    margin-top: 7rem;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+  .gateway-meta__info label {
+    text-align: center;
+    display: block;
+    margin-bottom: 3px;
+  }
+  
+  .gateway-meta__info input {
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    color: #fff;
+  }
+  
+  .main-section {
+    padding: 6rem;
+    background: #EDF0F5;
+  }
+  
+  .graph-title {
+    font-size: 2rem;
+    color: #414A4C;
+    margin-bottom: 1.2rem;
+  }
+  
+  .graph-today {
+    margin-bottom: 7rem;
+  }
+  
+  .graph-statistics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+.alert {
+    padding: 2.28rem;
+    margin-bottom: 5rem;
+}  
+
+.alert-info {
+    background: #ff6384;
+    text-align: center;
+}

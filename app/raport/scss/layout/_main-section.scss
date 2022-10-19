@@ -1,0 +1,35 @@
+.main-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 3rem 3rem 3rem 0;
+    .card {
+        height: 23.7rem;
+    }
+    @include respond(phone) {
+        padding: 10rem 2rem 3rem;
+        .graph-statistics {
+            flex-direction: column;
+        }
+    }
+
+    .page-actions {
+        display: flex;
+        justify-content: flex-end;
+        @include respond(phone) {
+            flex-direction: column;
+        }
+        .form-group {
+            margin-left: 1.5rem;
+            @include respond(phone) {
+                margin-left: 0;
+            }
+            select {
+                width: 20rem;
+                @include respond(phone) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

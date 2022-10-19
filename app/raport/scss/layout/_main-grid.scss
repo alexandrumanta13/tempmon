@@ -1,0 +1,23 @@
+.main-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    @include respond(phone) {
+        flex-direction: column;
+    }
+
+    & > * {
+        width: 100%;
+        height: 100%;
+        padding: 0 1.5rem;
+    }
+
+    .table-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        padding: 0 1.5rem;
+        align-items: center;
+    }
+}

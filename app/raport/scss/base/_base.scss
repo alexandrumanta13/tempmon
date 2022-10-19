@@ -1,0 +1,239 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+  @include respond(tab-land) {
+    // width < 1200?
+    font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+  }
+  @include respond(tab-port) {
+    // width < 900?
+    font-size: 50%; //1 rem = 8px, 8/16 = 50%
+  }
+  @include respond(big-desktop) {
+    font-size: 75%; //1rem = 12, 12/16
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: $regular-font;
+  height: 100vh;
+  overflow: hidden;
+  @include respond(phone) {
+    height: 100%;
+    overflow: auto;
+  }
+  &.hidden {
+    overflow: hidden;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a, i {
+  text-decoration: none;
+  -webkit-transition: all 220ms ease-in-out;
+  -moz-transition: all 220ms ease-in-out;
+  -o-transition: all 220ms ease-in-out;
+  transition: all 220ms ease-in-out;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  label {
+    font-size: 1.6rem;
+    color: $color-grey-dark;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  input {
+    width: 100%;
+    border: 1px solid $color-grey-dark;
+    border-radius: 0.4rem;
+    height: 4rem;
+    padding-left: 1.5rem;
+    -webkit-transition: all 220ms ease-in-out;
+    -moz-transition: all 220ms ease-in-out;
+    -o-transition: all 220ms ease-in-out;
+    transition: all 220ms ease-in-out;
+    &:focus {
+      border: 1px solid $color-primary;
+      outline: none;
+    }
+
+    &.darken {
+      background-color: $color-grey-light-2;
+    }
+
+    &[type="checkbox"] {
+      padding: 0;
+      height: initial;
+      width: initial;
+      margin-bottom: 0;
+      display: none;
+      cursor: pointer;
+
+      & + label {
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 0;
+         
+        &::before {
+          content: "";
+          -webkit-appearance: none;
+          background-color: transparent;
+          border: 0.15rem solid $color-black;
+          padding: 1rem;
+          display: inline-block;
+          position: relative;
+          vertical-align: middle;
+          cursor: pointer;
+          transition: all 220ms ease-in-out;
+          border-radius: .4rem;
+        }
+
+        &:after {
+            content: "";
+            opacity: 0;
+            visibility: hidden;
+            position: absolute;
+            top: 0.2rem;
+            left: 0.9rem;
+            width: 0.6rem;
+            height: 1.4rem;
+            border: solid $color-primary;
+            border-width: 0 0.15rem 0.15rem 0;
+            transform: rotate(45deg);
+            transition: all 220ms ease-in-out;
+          }
+      }
+
+      &:checked {
+        & + label {
+          &:before {
+            border-color: $color-primary;
+          }
+
+          &:after {
+              opacity: 1;
+              visibility: visible;
+          }
+        }
+      }
+    }
+  }
+  select {
+    width: 100%;
+    border: 1px solid $color-grey-dark;
+    border-radius: 0.4rem;
+    height: 4rem;
+    padding-left: 1.5rem;
+    -webkit-transition: all 220ms ease-in-out;
+    -moz-transition: all 220ms ease-in-out;
+    -o-transition: all 220ms ease-in-out;
+    transition: all 220ms ease-in-out;
+    &:focus {
+      border: 1px solid $color-primary;
+      outline: none;
+    }
+  }
+}
+
+button,
+.btn {
+  border-radius: 0.4rem;
+  height: 4rem;
+  padding: 1rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1;
+  font-family: $light-font;
+  text-decoration: none;
+  -webkit-transition: all 220ms ease-in-out;
+  -moz-transition: all 220ms ease-in-out;
+  -o-transition: all 220ms ease-in-out;
+  transition: all 220ms ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.primary {
+    border: 1px solid $color-primary;
+    background-color: $color-primary;
+    color: $color-white;
+    &:hover {
+      border: 1px solid $color-primary-dark;
+      background-color: $color-primary-dark;
+
+      cursor: pointer;
+    }
+  }
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    cursor: pointer;
+    line-height: 2rem;
+    display: inline-block;
+    color: $color-black;
+    margin-bottom: 0;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    border: .15rem solid $color-black;
+    border-radius: 100%;
+    background: transparent;
+    display: flex;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 1.2rem;
+    height: 1.2rem;
+    background: $color-primary;
+    position: absolute;
+    top: .4rem;
+    left: .4rem;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}

@@ -1,0 +1,162 @@
+.gateway-meta {
+  width: 30rem;
+  padding: 3rem;
+  
+  .gateway-inner {
+    background-color: $color-white;
+    height: 100%;
+    box-shadow: -11px 9px 21px rgba(173, 182, 217, 0.170884);
+    border-radius: 1rem;
+    padding: 2.5rem 3rem 3rem;
+    position: relative;
+    overflow: hidden;
+    @include respond(phone) {
+        padding: 2rem 3rem 3rem;
+      }
+    .gateway-inner-collapse {
+      width: 5rem;
+      height: 4rem;
+      position: absolute;
+      bottom: -4rem;
+      right: 2rem;
+      background: linear-gradient(to top, #e53935, #e35d5b);
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+      font-family: $icomoon-font-family;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 2.8rem;
+      padding-bottom: 0.2rem;
+      display: none;
+      @include respond(phone) {
+        display: flex;
+      }
+    }
+    .gateway-meta__status {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .gateway-meta__status-circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(to right, rgb(86, 171, 47), rgb(168, 224, 99));
+        width: 100%;
+        height: 8rem;
+      }
+
+      &.gateway-offline {
+        .gateway-meta__status-circle {
+          background: linear-gradient(to right, rgb(229, 57, 53), rgb(227, 93, 91));
+        }
+
+
+      }
+    }
+    .gateway-meta__name {
+      color: $color-white;
+      margin-bottom: 4rem;
+      position: relative;
+      small {
+          text-transform: uppercase;
+          display: block;
+      }
+    }
+    .gateway-meta__battery {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid $color-grey-light-2;
+      i {
+        font-size: 3.2rem;
+      }
+      span {
+        font-family: $bold-font;
+      }
+      @include respond(phone) {
+        position: absolute;
+        top: 2.5rem;
+        border: none;
+        right: 3rem;
+        color: $color-white;
+        i {
+          position: relative;
+          top: 0.1rem;
+          margin-right: 0.5rem;
+        }
+      }
+    }
+    .gateway-meta__temperature {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+      i {
+        font-size: 3.2rem;
+      }
+      span {
+        font-family: $bold-font;
+      }
+      @include respond(phone) {
+        position: absolute;
+        top: 2.5rem;
+        right: 13rem;
+        color: #fff;
+      }
+    }
+    .current_temp_label {
+      text-align: center;
+      font-size: 1.4rem;
+      color: $color-grey-dark;
+      text-transform: uppercase;
+      @include respond(phone) {
+        display: none;
+      }
+    }
+    .gateway-meta__info {
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid $color-grey-light-2;
+      button {
+        width: 100%;
+      }
+      @include respond(phone) {
+        border: none;
+      }
+    }
+    @include respond(phone) {
+      overflow: visible;
+      transition: height 250ms ease-out;
+      form {
+        transition: height 250ms ease-out;
+        opacity: 1;
+        visibility: visible;
+        button {
+          margin-top: 2rem;
+        }
+      }
+      &.collapsed {
+        height: 8rem;
+        transition: height 350ms ease-in;
+        .gateway-meta__info {
+          display: none;
+        }
+        form {
+          height: 8rem;
+          transition: height 350ms ease-in;
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+    }
+  }
+  @include respond(phone) {
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+  }
+}

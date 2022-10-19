@@ -1,0 +1,18 @@
+[04-May-2019 23:36:31 Europe/Bucharest] PHP Notice:  Undefined variable: name in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/index.php on line 71
+[04-May-2019 23:36:31 Europe/Bucharest] PHP Notice:  Undefined variable: address in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/index.php on line 71
+[04-May-2019 23:36:35 Europe/Bucharest] PHP Notice:  Undefined variable: name in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/index.php on line 71
+[04-May-2019 23:36:35 Europe/Bucharest] PHP Notice:  Undefined variable: address in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/index.php on line 71
+[04-May-2019 23:39:55 Europe/Bucharest] PHP Notice:  Undefined variable: name in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/index.php on line 71
+[04-May-2019 23:39:55 Europe/Bucharest] PHP Notice:  Undefined variable: address in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/index.php on line 71
+[04-May-2019 23:40:17 Europe/Bucharest] PHP Warning:  include(/home/tempmon.ro/monitor/inc/queries.php): failed to open stream: No such file or directory in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/send.php on line 3
+[04-May-2019 23:40:17 Europe/Bucharest] PHP Warning:  include(): Failed opening '/home/tempmon.ro/monitor/inc/queries.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/send.php on line 3
+[04-May-2019 23:40:17 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function deleteLocation() in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/send.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/send.php on line 15
+[04-May-2019 23:40:22 Europe/Bucharest] PHP Warning:  include(/home/tempmon.ro/monitor/inc/queries.php): failed to open stream: No such file or directory in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/send.php on line 3
+[04-May-2019 23:40:22 Europe/Bucharest] PHP Warning:  include(): Failed opening '/home/tempmon.ro/monitor/inc/queries.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/send.php on line 3
+[04-May-2019 23:40:22 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function deleteLocation() in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/send.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/circuitp/tempmon.ro/demo/configuration/locations/remove/send.php on line 15

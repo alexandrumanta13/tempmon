@@ -1,0 +1,48 @@
+.add-page {
+  &.main-content {
+    @include respond(phone) {
+      height: 100vh;
+      width: 100%;
+    }
+  }
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    @include respond(phone) {
+      flex-direction: column;
+    }
+
+    .form-group {
+      padding: 0 1.5rem;
+      flex: 1 1 auto;
+      @include respond(phone) {
+        .btn {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .previous-actions {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: $color-grey-dark;
+    width: 10rem;
+    i {
+      margin-right: 0.5rem;
+    }
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  h1 {
+    padding: 4rem 1.5rem;
+    font-weight: normal;
+    @include respond(phone) {
+      font-size: 2.8rem;
+    }
+  }
+}

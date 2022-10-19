@@ -1,0 +1,123 @@
+.store-container {
+    background-color: $color-grey-light-1;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+
+    ul {
+        li {
+            padding: 1.6rem 3rem;
+            border-bottom: .1rem solid #ddd;
+
+
+            &.configuration {
+                padding: 1.6rem;
+                span {
+                    margin-bottom: 1.6rem;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+
+            &:hover {
+                cursor: pointer;
+                background-color: #ddd;
+                transition: .25s ease all;
+            }
+            
+            small {
+                color: $color-grey-dark;
+                
+            }
+        }
+    }
+
+    
+}
+.store-content {
+    padding: 6rem;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    h1 {
+        margin-bottom: 6rem;
+    }
+    .sensor-header {
+        display: flex;
+        justify-content: space-around;
+        padding: 1.6rem;
+        color: $color-grey-dark;
+    }
+    .sensor-list {
+        display: flex;
+        flex-direction: column;
+        li {
+            display: flex;
+            background-color: white;
+            box-shadow: -11px 1px 21px rgba(173,182,217,0.170884);
+            padding: 1.6rem;
+            margin-bottom: 1.6rem;
+
+            small {
+                &.offline {
+                    color: #e53935;
+                }
+                &.online {
+                    color: #56ab2f;
+                }
+            }
+
+            &:hover {
+                box-shadow: -11px 9px 21px rgba(173,182,217,0.170884);
+            }
+
+            .sensor-list-details {
+                display: flex;
+                flex: 1 1 auto;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 4rem;
+            }
+        }
+    }
+}
+
+.list-actions {
+   
+    display: flex;
+    @include respond(phone) {
+      position: absolute;
+      right: -100%;
+      background: $color-white;
+      width: 85%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: space-around;
+      z-index: 9;
+      transition: right 800ms ease-in-out;
+    }
+    a {
+      padding: 1rem;
+      border-radius: 0.4rem;
+      color: $color-black;
+      &:hover {
+        background-color: $color-primary;
+        i {
+          color: $color-white;
+        }
+      }
+      @include respond(phone) {
+        flex-direction: column;
+        justify-content: center;
+      }
+      small {
+        display: none;
+        @include respond(phone) {
+          display: flex;
+        }
+      }
+    }
+  }

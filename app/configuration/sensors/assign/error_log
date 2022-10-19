@@ -1,0 +1,4 @@
+[14-Jun-2019 15:35:43 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 1012
+[14-Jun-2019 15:36:54 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 1012
+[14-Jun-2019 15:39:21 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 1014
+[14-Jun-2019 15:39:39 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, string given in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 1014

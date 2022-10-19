@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.min.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="css/style.css" type="text/css"/> -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-content">
+        <nav class="nav-side">
+            <ul>
+
+                <li class="home">
+                    <a>
+                        <i class="icon-home"></i>
+                    </a>
+                </li>
+                <li class="">
+                    <a>
+                        <i class="icon-battery"></i>
+                    </a>
+                </li>
+                <li class="">
+                    <a>
+                        <i class="icon-temperature"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="store-container">
+            <ul>
+                <li class="configuration">
+                    <span>Toti senzorii</span>
+                    <div class="switch switch--horizontal">
+                        <input id="radio-a" type="radio" name="first-switch" checked="checked">
+                        <label for="radio-a">Toti</label>
+                        <input id="radio-b" type="radio" name="first-switch">
+                        <label for="radio-b">Neasignati</label>
+                        <span class="toggle-outside">
+                            <span class="toggle-inside"></span>
+                        </span>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Cauta magazin">
+                    </div>
+
+                </li>
+                <li>
+                    <p>Magazin 1</p>
+                    <small>24 senzori</small>
+                </li>
+                <li>
+                    <p>Magazin 1</p>
+                    <small>24 senzori</small>
+                </li>
+                <li>
+                    <p>Magazin 1</p>
+                    <small>24 senzori</small>
+                </li>
+                <li>
+                    <p>Magazin 1</p>
+                    <small>24 senzori</small>
+                </li>
+            </ul>
+
+        </div>
+        <div class="store-content">
+            <h1>Toti senzorii</h1>
+            <ul class="sensor-header">
+                <li>Nume senzor</li>
+                <li>Data ultimul incident</li>
+                <li>Actiuni</li>
+            </ul>
+            <ul class="sensor-list">
+                <li>
+                    <div class="raport">
+                        <a class="btn primary">Raport</a>
+                    </div>
+                    <div class="sensor-list-details">
+                        <div class="sensor-details">
+                            <p>Senzor 1</p>
+                            <small class="online">Online</small>
+                        </div>
+                        <span>25.05.2019</span>
+                        <div class="list-actions">
+                            <a href="http://tempmon.ro/demo/configuration/sensors/edit?id=64" class="edit">
+                                <i class="icon-edit"></i>
+                                <small>Editeaza</small>
+                            </a>
+                            <a href="http://tempmon.ro/demo/configuration/sensors/remove?id=64" class="delete">
+                                <i class="icon-delete"></i>
+                                <small>Sterge</small>
+                            </a>
+                            <a href="" class="assign">
+                                <i class="icon-assign"></i>
+                                <small>Asigneaza</small>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="raport">
+                        <a class="btn primary">Raport</a>
+                    </div>
+                    <div class="sensor-list-details">
+                        <div class="sensor-details">
+                            <p>Senzor 1</p>
+                            <small class="offline">Offline</small>
+                        </div>
+                        <span>25.05.2019</span>
+                        <div class="list-actions">
+                            <a href="http://tempmon.ro/demo/configuration/sensors/edit?id=64" class="edit">
+                                <i class="icon-edit"></i>
+                                <small>Editeaza</small>
+                            </a>
+                            <a href="http://tempmon.ro/demo/configuration/sensors/remove?id=64" class="delete">
+                                <i class="icon-delete"></i>
+                                <small>Sterge</small>
+                            </a>
+                            <a href="" class="assign">
+                                <i class="icon-assign"></i>
+                                <small>Asigneaza</small>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/ro.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="graph graph-last-week">
+        <h3 class="graph-title">Interval ultima saptamana</h3>
+        <!-- <div class="week-start" style="display: none"><?=date('Y-m-d', strtotime('-6 days'))?></div> -->
+        <div class="card card-week">
+          <canvas id="weekCanvas"></canvas>
+            <div class="axis week-axis">
+              <!-- <div class="tick">
+                <span class="week-number"></span>
+                <span class="week-name"></span>
+                <span class="value week-value--this"></span>
+              </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="card card-day">
+        <canvas id="DayCanvas"></canvas>
+          <div class="axis day-axis">
+            <!-- <div class="tick">
+              <span class="week-number"></span>
+              <span class="week-name"></span>
+              <span class="value week-value--this"></span>
+            </div> -->
+        </div>
+      </div>
+    </div>
+</body>
+</html>

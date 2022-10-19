@@ -1,0 +1,10 @@
+.main-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: $color-grey-light-2;
+    @include respond(phone) {
+        flex-direction: column;
+        padding-bottom: 6rem;
+    }
+}

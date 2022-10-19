@@ -1,0 +1,84 @@
+.notifications-page {
+  overflow: auto;
+  .main-container {
+    padding: 8rem 1.5rem 3rem 8.5rem;
+    @include respond(phone) {
+      padding: 3rem 1.5rem 3rem;
+    }
+  }
+
+  .nav-side {
+    position: fixed;
+    height: 100%;
+    @include respond(phone) {
+      height: auto;
+    }
+  }
+
+  .notifications-container {
+    padding: 1.5rem;
+    @include respond(phone) {
+      table,
+      thead,
+      tbody,
+      th,
+      td,
+      tr {
+        display: block;
+      }
+
+      thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+      }
+
+      tr {
+        border: 1px solid $color-grey-dark;
+      }
+
+      td {
+        border: none;
+        border-bottom: .1rem solid $color-grey-light-2;
+        position: relative;
+        padding-left: 50%;
+
+        &:before {
+          position: absolute;
+          top: .6rem;
+          left: .6rem;
+          width: 45%;
+          padding-right: 1rem;
+          content: attr(data-column);
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    tbody {
+      tr {
+        border: .1rem solid $color-grey-dark;
+      }
+    }
+    tr {
+      th {
+        font-weight: normal;
+        color: $color-grey-dark;
+        padding: 2rem 0.5rem;
+      }
+
+      td {
+        background-color: $color-white;
+        padding: 1.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+[14-May-2019 09:29:47 Europe/Bucharest] PHP Notice:  Undefined index: login_email in /home/circuitp/tempmon.ro/monitor/inc/session_inc.php on line 8
+[14-May-2019 09:29:47 Europe/Bucharest] PHP Notice:  Undefined index: login_email in /home/circuitp/tempmon.ro/demo/configuration/sensors/add/index.php on line 38
+[14-May-2019 09:29:47 Europe/Bucharest] PHP Notice:  Undefined index: login_role in /home/circuitp/tempmon.ro/demo/configuration/sensors/add/index.php on line 39
+[14-May-2019 09:29:47 Europe/Bucharest] PHP Notice:  Undefined index: user_id in /home/circuitp/tempmon.ro/demo/configuration/sensors/add/index.php on line 41

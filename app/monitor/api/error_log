@@ -1,0 +1,346 @@
+[30-Apr-2019 14:36:00 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function getUsers() in /home/circuitp/tempmon.ro/monitor/api/users.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/api/users.php on line 9
+[30-Apr-2019 14:36:27 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function getUsers() in /home/circuitp/tempmon.ro/monitor/api/users.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/api/users.php on line 9
+[30-Apr-2019 14:36:54 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function getUsers() in /home/circuitp/tempmon.ro/monitor/api/users.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/api/users.php on line 9
+[30-Apr-2019 14:37:10 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function getUsers() in /home/circuitp/tempmon.ro/monitor/api/users.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/api/users.php on line 9
+[30-Apr-2019 14:38:58 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function getUsers() in /home/circuitp/tempmon.ro/monitor/api/users.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/api/users.php on line 9
+[30-Apr-2019 14:39:04 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function getUsers() in /home/circuitp/tempmon.ro/monitor/api/users.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/api/users.php on line 9
+[30-Apr-2019 14:39:12 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function getUsers() in /home/circuitp/tempmon.ro/monitor/api/users.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/api/users.php on line 9
+[30-Apr-2019 14:39:13 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function getUsers() in /home/circuitp/tempmon.ro/monitor/api/users.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/api/users.php on line 9
+[30-Apr-2019 14:39:31 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function getUsers() in /home/circuitp/tempmon.ro/monitor/api/users.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/api/users.php on line 9
+[30-Apr-2019 14:39:48 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function getUsers() in /home/circuitp/tempmon.ro/monitor/api/users.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/api/users.php on line 9
+[30-Apr-2019 14:39:48 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function getUsers() in /home/circuitp/tempmon.ro/monitor/api/users.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/api/users.php on line 9
+[30-Apr-2019 14:40:43 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/users.php on line 10
+[30-Apr-2019 14:41:17 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/users.php on line 10
+[30-Apr-2019 14:41:28 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/users.php on line 10
+[30-Apr-2019 14:42:41 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/users.php on line 10
+[30-Apr-2019 14:46:28 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:261
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 261
+[30-Apr-2019 14:46:29 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:261
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 261
+[30-Apr-2019 14:46:59 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:261
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 261
+[30-Apr-2019 14:47:11 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:261
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 261
+[30-Apr-2019 14:47:13 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:261
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 261
+[30-Apr-2019 14:47:14 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:261
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 261
+[30-Apr-2019 14:47:14 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:261
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 261
+[30-Apr-2019 14:47:15 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:261
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 261
+[30-Apr-2019 14:47:49 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:261
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 261
+[30-Apr-2019 14:47:50 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:261
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 261
+[30-Apr-2019 14:47:51 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:261
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 261
+[30-Apr-2019 14:47:51 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:261
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 261
+[30-Apr-2019 14:47:51 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:261
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 261
+[30-Apr-2019 14:48:00 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:48:25 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:48:26 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:48:35 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:50:17 Europe/Bucharest] PHP Notice:  Undefined variable: G in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 7
+[30-Apr-2019 14:50:17 Europe/Bucharest] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'circuitp_sensor'@'localhost' (using password: YES) in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 10
+[30-Apr-2019 14:50:17 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'circuitp_sensor'@'localhost' (using password: YES) in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 11
+[30-Apr-2019 14:50:31 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:50:52 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:50:52 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:51:16 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:52:44 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:53:42 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:54:35 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:55:06 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:55:07 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:55:12 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:56:04 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:56:12 Europe/Bucharest] PHP Notice:  Undefined variable: conn in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 15
+[30-Apr-2019 14:56:19 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:56:36 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:56:59 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/circuitp/tempmon.ro/monitor/inc/queries.php:262
+Stack trace:
+#0 /home/circuitp/tempmon.ro/monitor/api/users.php(9): getUsers(4)
+#1 {main}
+  thrown in /home/circuitp/tempmon.ro/monitor/inc/queries.php on line 262
+[30-Apr-2019 14:58:22 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/users.php on line 17
+[30-Apr-2019 15:05:30 Europe/Bucharest] PHP Notice:  Trying to get property 'location_id' of non-object in /home/circuitp/tempmon.ro/monitor/api/users.php on line 19
+[30-Apr-2019 15:05:33 Europe/Bucharest] PHP Notice:  Trying to get property 'location_id' of non-object in /home/circuitp/tempmon.ro/monitor/api/users.php on line 19
+[30-Apr-2019 15:05:42 Europe/Bucharest] PHP Notice:  Trying to get property 'location_id' of non-object in /home/circuitp/tempmon.ro/monitor/api/users.php on line 19
+[30-Apr-2019 15:05:46 Europe/Bucharest] PHP Notice:  Trying to get property 'location_id' of non-object in /home/circuitp/tempmon.ro/monitor/api/users.php on line 19
+[30-Apr-2019 15:05:54 Europe/Bucharest] PHP Notice:  Trying to get property 'location_id' of non-object in /home/circuitp/tempmon.ro/monitor/api/users.php on line 19
+[30-Apr-2019 15:06:17 Europe/Bucharest] PHP Notice:  Trying to get property 'location_id' of non-object in /home/circuitp/tempmon.ro/monitor/api/users.php on line 21
+[30-Apr-2019 15:06:18 Europe/Bucharest] PHP Notice:  Trying to get property 'location_id' of non-object in /home/circuitp/tempmon.ro/monitor/api/users.php on line 21
+[30-Apr-2019 15:08:00 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/circuitp/tempmon.ro/monitor/api/users.php on line 52
+[30-Apr-2019 15:08:18 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/circuitp/tempmon.ro/monitor/api/users.php on line 52
+[30-Apr-2019 15:08:20 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/circuitp/tempmon.ro/monitor/api/users.php on line 52
+[30-Apr-2019 15:08:21 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/circuitp/tempmon.ro/monitor/api/users.php on line 52
+[30-Apr-2019 15:09:47 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/users.php on line 13
+[04-May-2019 21:59:18 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/sensors.php on line 25
+[06-Jun-2019 17:10:54 Europe/Bucharest] PHP Notice:  Undefined variable: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 24
+[06-Jun-2019 17:23:47 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 17:58:48 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 17:58:48 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:01:01 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:01:01 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:02:03 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:02:03 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:02:05 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:02:05 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:02:07 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:02:07 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:02:08 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:02:08 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:02:08 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:02:08 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:04:30 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:04:30 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:04:31 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:04:31 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:04:39 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:04:39 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:06:33 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:06:33 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:11:25 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:11:25 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:12:03 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:12:03 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:12:24 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:12:24 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:14:21 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:14:21 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:14:26 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:14:26 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:15:16 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:15:16 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:16:41 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:16:41 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 16
+[06-Jun-2019 18:17:01 Europe/Bucharest] PHP Notice:  Undefined variable: contentType in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:17:35 Europe/Bucharest] PHP Notice:  Undefined variable: contentType in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 15
+[06-Jun-2019 18:19:58 Europe/Bucharest] PHP Warning:  Illegal string offset 'location_id' in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 22
+[06-Jun-2019 18:22:37 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 28
+[06-Jun-2019 18:22:37 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 29
+[06-Jun-2019 18:22:38 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 28
+[06-Jun-2019 18:22:38 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 29
+[06-Jun-2019 18:22:38 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 28
+[06-Jun-2019 18:22:38 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 29
+[06-Jun-2019 18:22:39 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 28
+[06-Jun-2019 18:22:39 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 29
+[06-Jun-2019 18:24:28 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 28
+[06-Jun-2019 18:24:32 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 28
+[06-Jun-2019 18:24:32 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 29
+[06-Jun-2019 18:27:58 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/week_graphic.php on line 31
+[06-Jun-2019 18:27:58 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/week_graphic.php on line 32
+[06-Jun-2019 18:30:50 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/month_graphic.php on line 79
+[06-Jun-2019 18:30:50 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/month_graphic.php on line 80
+[07-Jun-2019 16:47:40 Europe/Bucharest] PHP Notice:  Undefined index: sensor_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 82
+[07-Jun-2019 16:47:40 Europe/Bucharest] PHP Notice:  Undefined index: location_id in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 83
+[12-Jun-2019 10:53:46 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 49
+[12-Jun-2019 10:53:49 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 49
+[12-Jun-2019 10:54:04 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 49
+[12-Jun-2019 10:54:05 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 49
+[12-Jun-2019 10:54:05 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 49
+[12-Jun-2019 10:54:09 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 49
+[12-Jun-2019 10:54:13 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 49
+[12-Jun-2019 10:54:15 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 49
+[12-Jun-2019 10:54:19 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/circuitp/tempmon.ro/monitor/api/today_graphic.php on line 49
+[13-Jun-2019 13:18:02 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 29
+[13-Jun-2019 13:19:11 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 29
+[13-Jun-2019 13:20:28 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 29
+[13-Jun-2019 13:21:00 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 29
+[13-Jun-2019 13:23:35 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 29
+[13-Jun-2019 13:23:57 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 29
+[13-Jun-2019 13:25:26 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 29
+[13-Jun-2019 16:12:31 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 28
+[13-Jun-2019 16:13:26 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 28
+[13-Jun-2019 16:14:03 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 28
+[13-Jun-2019 16:14:54 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 28
+[13-Jun-2019 16:14:56 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 28
+[13-Jun-2019 16:15:29 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 28
+[13-Jun-2019 16:15:46 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 28
+[13-Jun-2019 19:01:42 Europe/Bucharest] PHP Fatal error:  Cannot use empty array elements in arrays in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 51
+[13-Jun-2019 19:02:12 Europe/Bucharest] PHP Fatal error:  Cannot use empty array elements in arrays in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 51
+[13-Jun-2019 19:02:42 Europe/Bucharest] PHP Fatal error:  Cannot use empty array elements in arrays in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 51
+[13-Jun-2019 19:03:36 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 38
+[13-Jun-2019 19:03:38 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 38
+[13-Jun-2019 19:04:08 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 38
+[13-Jun-2019 19:04:26 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 38
+[13-Jun-2019 19:04:27 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 38
+[13-Jun-2019 19:04:28 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 38
+[13-Jun-2019 19:04:58 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 38
+[13-Jun-2019 19:05:28 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 38
+[13-Jun-2019 19:05:46 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 38
+[13-Jun-2019 19:05:48 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 38
+[13-Jun-2019 19:06:03 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 38
+[13-Jun-2019 19:06:18 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 38
+[13-Jun-2019 19:06:34 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/logs.php on line 38
+[14-Jun-2019 14:15:46 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 14:15:46 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 14:15:46 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 14:16:16 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 14:16:16 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 14:16:16 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 11
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 11
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 11
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 11
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 11
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 11
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 11
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 11
+[14-Jun-2019 17:49:05 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 17:49:06 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 11
+[14-Jun-2019 17:49:06 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[14-Jun-2019 17:49:06 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 11
+[14-Jun-2019 17:49:06 Europe/Bucharest] PHP Warning:  mysqli::__construct(): (HY000/1203): User circuitp_sensor already has more than 'max_user_connections' active connections in /home/circuitp/tempmon.ro/monitor/inc/mysql_inc.php on line 12
+[17-Jun-2019 07:59:25 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 27
+[17-Jun-2019 07:59:25 Europe/Bucharest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/circuitp/tempmon.ro/monitor/api/assigned_sensors.php on line 27

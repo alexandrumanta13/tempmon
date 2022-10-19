@@ -1,0 +1,36 @@
+.alert {
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  padding: 1.25em;
+  position: absolute;
+  right: -36.5rem;
+  bottom: 0;
+  transition: 0.15s ease-in-out;
+  width: 32.5rem;
+  &.alert-info {
+    background-color: $color-secondary-light;
+    color: #fff;
+  }
+  &.on {
+    transform: translateX(-36.5rem);
+  }
+  .close {
+    cursor: pointer;
+    float: right;
+    font-size: 2.4rem;
+    line-height: 1;
+    margin-left: 1rem;
+    opacity: 0.8;
+  }
+
+  @include respond(phone) {
+    position: fixed;
+    bottom: 7rem;
+    width: 100%;
+    z-index: 99;
+    right: -100%;
+    &.on {
+      transform: translateX(-100%);
+    }
+  }
+}

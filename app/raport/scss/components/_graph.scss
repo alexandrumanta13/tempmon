@@ -1,0 +1,38 @@
+.graph {
+    margin-bottom: 1.5rem;
+    .graph-title {
+        margin-bottom: 1.5rem;
+        font-weight: normal;
+    }
+    &.graph-last-week {
+        width: calc(25% - 1.5rem);
+        @include respond(phone) {
+            overflow-x: scroll;
+            width: 100%;
+        }
+    }
+    &.graph-last-month {
+        width: calc(75% - 1.5rem);
+        @include respond(phone) {
+            overflow-x: scroll;
+            width: 100%;
+            .card {
+                width: 80rem;
+            }
+        }
+    }
+    &.graph-today {
+        @include respond(phone) {
+            overflow-x: scroll;
+            width: 100%;
+            .card {
+                width: 80rem;
+            }
+        }
+    }
+}
+
+.graph-statistics {
+    display: flex;
+    justify-content: space-between;
+}
